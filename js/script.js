@@ -1,4 +1,5 @@
 var argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+
 buttonTest = document.getElementById('button-test');
 buttonTest.addEventListener('click', function(){ buttonClicked('Guzik TEST'); });
 buttonRock = document.getElementById('button-rock');
@@ -15,15 +16,6 @@ buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); }
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-function printMessage(msg){
-	var div = document.createElement('div');
-	div.innerHTML = msg;
-	document.getElementById('messages').appendChild(div);
-}
-
-function clearMessages(){
-	document.getElementById('messages').innerHTML = '';
-}
 
 
 var randomNumber;
