@@ -18,7 +18,7 @@ randomNumber = Math.floor(Math.random() * 3 + 1);
 printMessage('Wylosowana liczba to: ' + randomNumber);
 
 
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+var computerMove, playerMove, randomNumber, playerInput;
 
 /**
  * Describe this function...
