@@ -15,7 +15,7 @@ let randomNumber = Math.floor(Math.random() * 3 + 1);
 printMessage('Wylosowana liczba to: ' + randomNumber);
 
 
-var computerMove, playerMove, playerInput;
+var computerMove, playerInput;
 
 /**
  * Describe this function...
@@ -52,7 +52,7 @@ function displayResult(argPlayerMove, argComputerMove) {
   }
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
-playerMove = argButtonName;
+const playerMove = argButtonName;
 randomNumber = Math.floor(Math.random() * 3 + 1);
 console.log('wylosowana liczba to: ' + randomNumber);
 computerMove = getMoveName(randomNumber);
