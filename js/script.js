@@ -11,12 +11,11 @@ function buttonClicked(argButtonName) {
   console.log(argButtonName + ' został kliknięty');
 
 
-var randomNumber;
-randomNumber = Math.floor(Math.random() * 3 + 1);
+let randomNumber = Math.floor(Math.random() * 3 + 1);
 printMessage('Wylosowana liczba to: ' + randomNumber);
 
 
-var computerMove, playerMove, randomNumber, playerInput;
+var computerMove, playerMove, playerInput;
 
 /**
  * Describe this function...
