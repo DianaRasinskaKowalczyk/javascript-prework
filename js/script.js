@@ -15,9 +15,6 @@ let randomNumber = Math.floor(Math.random() * 3 + 1);
 console.log('wylosowana liczba to: ' + randomNumber);
 printMessage('Wylosowana liczba to: ' + randomNumber);
 
-const playerMove = argButtonName;
-const computerMove = getMoveName(randomNumber);
-console.log('ruch komputera to: ' + computerMove);
 
 
 /**
@@ -56,6 +53,9 @@ function displayResult(argPlayerMove, argComputerMove) {
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
 
+const playerMove = argButtonName;
+const computerMove = getMoveName(randomNumber);
+console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
 }
 
